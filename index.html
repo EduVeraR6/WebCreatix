@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="estilos.css">
+    <title>WebCreatix</title>
+</head>
+
+<body>
+    <nav>
+
+        <div class="logo">
+            <a href="#">
+                <h1>WebCreatix</h1>
+            </a>
+            <i class="bi bi-list" id="abrir"></i>
+            <i class="bi bi-x-circle" id="cerrar"></i>
+        </div>
+
+        <div class="links" id="links-js">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#nosotros">Sobre Nosotros</a></li>
+                <li><a href="#contactos">Contactos</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header>
+        <div class="texto-header">
+            <span>Creamos soluciones web a medida para impulsar tu negocio.</span>
+        </div>
+        <video onloadedmetadata="this.muted=true" src="Imagenes/header.mp4" loop muted autoplay></video>
+    </header>
+
+    <main>
+        <section class="productos" id="productos">
+            <div class="texto">
+                <h2>¿Qué Ofrecemos?</h2>
+                <p>Ofrecemos una variedad de productos que se adaptan a sus necesidades</p>
+            </div>
+            <div class="productos-tarjetas">
+                <img src="Imagenes/creaciones.jpg" alt="imagen1">
+                <span>Creaciones de Sitios Web</span>
+            </div>
+            <div class="productos-tarjetas">
+                <img src="Imagenes/sugerencias.jpg" alt="imagen2">
+                <span>Asesoramiento</span>
+            </div>
+            <div class="productos-tarjetas">
+                <img src="Imagenes/diseño.jpg" alt="imagen3">
+                <span>Diseño Personalizado</span>
+            </div>
+        </section>
+
+        <section class="sobre-nosotros" id="nosotros">
+            <h2>Sobre Nosotros</h2>
+            <p>Somos WebCreatix, una empresa de desarrollo web
+                formada por ingenieros de software. Creamos soluciones web
+                personalizadas con las últimas tecnologías
+                y herramientas. Nos enfocamos en la
+                calidad, la eficiencia y la satisfacción de
+                nuestros clientes. Si quieres una solución
+                web a medida, ¡Contáctanos!</p>
+                
+                <img src="Imagenes/sobre-nosotros.jpg" alt="sobre-nosotros">
+        </section>
+
+        <section class="contactos" id="contactos">
+            <h2>Contactos</h2>
+            <div class="redes">
+                <div class="email redes-tarjeta">
+                    <i class="bi bi-envelope-at-fill"></i>
+                    <span>Email: WebCreatix@gmail.com</span>
+                </div>
+                <div class="instagram redes-tarjeta">
+                    <i class="bi bi-instagram"></i>
+                    <span>Instagram: WebCreatix </span>
+                </div>
+                <div class="github redes-tarjeta">
+                    <i class="bi bi-github"></i>
+                    <span>GitHub: WebCreatix </span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <span>Derechos reservados: WebCreatix &#169 Copyright</span>
+    </footer>
+
+    <script src="codigo.js"></script>
+</body>
+
+</html>

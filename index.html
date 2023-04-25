@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="imagenes/WebCreatix.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,7 +24,7 @@
 
         <div class="logo">
             <a href="#">
-                <h1>WebCreatix</h1>
+                <img src="Imagenes/WebCreatix.png" alt="logo">
             </a>
             <i class="bi bi-list" id="abrir"></i>
             <i class="bi bi-x-circle" id="cerrar"></i>
@@ -43,26 +44,29 @@
         <div class="texto-header">
             <span>Creamos soluciones web a medida para impulsar tu negocio.</span>
         </div>
-        <video onloadedmetadata="this.muted=true" src="Imagenes/header.mp4" loop muted autoplay></video>
+        <video id="video1" onloadedmetadata="this.muted=true" src="Imagenes/header.mp4" loop muted autoplay></video>
+        <video id="video2" onloadedmetadata="this.muted=true" src="Imagenes/Pc-header.mp4" loop muted autoplay></video>
     </header>
 
     <main>
         <section class="productos" id="productos">
             <div class="texto">
                 <h2>¿Qué Ofrecemos?</h2>
-                <p>Ofrecemos una variedad de productos que se adaptan a sus necesidades</p>
+                <p>Ofrecemos una variedad de productos que se adaptan a sus necesidades.</p>
             </div>
-            <div class="productos-tarjetas">
-                <img src="Imagenes/creaciones.jpg" alt="imagen1">
-                <span>Creaciones de Sitios Web</span>
-            </div>
-            <div class="productos-tarjetas">
-                <img src="Imagenes/sugerencias.jpg" alt="imagen2">
-                <span>Asesoramiento</span>
-            </div>
-            <div class="productos-tarjetas">
-                <img src="Imagenes/diseño.jpg" alt="imagen3">
-                <span>Diseño Personalizado</span>
+            <div class="contenedor-productos">
+                <div class="productos-tarjetas">
+                    <img src="Imagenes/creaciones.jpg" style="height: 200px;" alt="imagen1">
+                    <span>Creaciones de Sitios Web</span>
+                </div>
+                <div class="productos-tarjetas">
+                    <img src="Imagenes/sugerencias.jpg" alt="imagen2">
+                    <span>Asesoramiento</span>
+                </div>
+                <div class="productos-tarjetas">
+                    <img src="Imagenes/diseño.jpg" alt="imagen3">
+                    <span>Diseño Personalizado</span>
+                </div>
             </div>
         </section>
 
@@ -75,8 +79,8 @@
                 calidad, la eficiencia y la satisfacción de
                 nuestros clientes. Si quieres una solución
                 web a medida, ¡Contáctanos!</p>
-                
-                <img src="Imagenes/sobre-nosotros.jpg" alt="sobre-nosotros">
+
+            <img src="Imagenes/sobre-nosotros.jpg" alt="sobre-nosotros">
         </section>
 
         <section class="contactos" id="contactos">
